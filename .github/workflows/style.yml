@@ -38,4 +38,4 @@ jobs:
           poetry env info
         
       - name: Check formatting
-        run: poetry run black --diff
+        run: poetry run black --diff .
