@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bridges"
+version = "0.1.0"
+description = ""
+authors = ["Vojta"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.23.0"
+loguru = "^0.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pytest-sugar = "^0.9.4"
+black = {version = "^22.3.0", allow-prereleases = false}
+ipykernel = "^6.15.0"
+mypy = "^0.961"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
